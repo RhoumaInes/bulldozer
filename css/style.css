@@ -1,0 +1,47 @@
+:root {
+    --primary-color: hsla(205, 44%, 61%, 1);
+    --primary-color-lighten: hsla(205, 44%, 71%, 1);
+    --primary-color-darken: hsla(205, 44%, 51%, 1);
+  
+    --secondary-color: hsla(203, 46%, 27%, 1);
+    --secondary-color-lighten: hsla(203, 46%, 37%, 1);
+    --secondary-color-darken: hsla(203, 46%, 17%, 1);
+  
+    --accent-color: hsla(20, 80%, 53%, 1);
+    --accent-color-lighten: hsla(20, 80%, 85%, 1);
+    --accent-color-darken: hsla(20, 80%, 48%, 1);
+  
+    --background-color: hsla(14, 87%, 100%, 1);
+    --text-color: hsla(0, 0%, 27%, 1);
+    --text-color-lighten: hsla(0, 0%, 35%, 1);
+  
+    --primary-background-color: hsla(205, 44%, 78%, 1);
+    --secondary-background-color: hsla(203, 46%, 10%, 1);
+    --accent-background-color:hsla(20, 80%, 68%, 1);
+  
+    --success-color: hsla(122, 39%, 49%, 1);
+    --error-color: hsla(4, 90%, 58%, 1);
+    --info-color: hsla(199, 98%, 48%, 1);
+  
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'PT Serif', serif;
+    --font-secondary-2: 'Roboto', sans-serif;
+
+    --card-border-radius: 4px;
+    --button-border-radius: 4px;
+  }
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+body {
+  font-family: var(--font-primary);
+}
