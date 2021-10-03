@@ -5,7 +5,8 @@
         <title>Perspiciatis unde omnis iste natus error sit</title>
         <meta name="Description" content="Perspiciatis unde omnis iste natus error sit">
         <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +16,8 @@
         <link rel="preload stylesheet" as="style" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <link rel="preload stylesheet" as="style" href="css/style.css" media="screen">
+        <link rel="preload stylesheet" as="style" type="text/css" href="css/slick.css">
+        <link rel="preload stylesheet" as="style" type="text/css" href="css/slick-theme.css">
         <link rel="icon" href="logo-h.ico" />
 
     </head>
@@ -59,9 +62,10 @@
               </div>
             </div>
           </header>
+          <!-- Comment ça fonctionne ? -->
           <div class="container">
             <h2 class="text-center">Comment ça fonctionne ?</h2>
-            <div class="row align-items-center first-frame">
+            <div class="row first-frame">
               <div class="col-sm-6 col-md-4">
                 <div class="card first">
                   <div class="card-body">
@@ -133,6 +137,7 @@
             </div>
             </div>
           </div>
+          <!-- Fonctionnalités -->
           <div class="container items-bloc">
             <h2 class="text-center">Fonctionnalités</h2>
             <div class="row align-items-center">
@@ -147,9 +152,8 @@
                         </div>
                         <h6>Feature #1</h6>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                          sed diam voluptua.
-                          At vero eos et</p>
+                          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                           sed diam voluptua. At vero eos</p>
                       </div>
                     </div>
                     <div class="p-2">
@@ -161,9 +165,8 @@
                         </div>
                         <h6>Feature #2</h6>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                          sed diam voluptua.
-                          At vero eos et</p>
+                          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                           sed diam voluptua. At vero eos</p>
                       </div>
                     </div>
                   </div>
@@ -181,9 +184,8 @@
                       </div>
                       <h6>Feature #3</h6>
                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                        sed diam voluptua.
-                        At vero eos et</p>
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                         sed diam voluptua. At vero eos</p>
                     </div>
                   </div>
                   <div class="p-2">
@@ -195,23 +197,195 @@
                       </div>
                       <h6>Feature #4</h6>
                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-                        sed diam voluptua.
-                        At vero eos et</p>
+                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                         sed diam voluptua. At vero eos</p>
                     </div>
                   </div>
                   
                 </div>
             </div>
           </div>
+          <!-- avis-->
+
           <div class="container">
             <h2 class="text-center">Témoignage</h2>
+            <div class="slider-content">
+              <div>
+                <div class="card avis mb-3">
+                  <div class="card-header bg-transparent img-rond">
+                    <img class="img-responsive" src="images/personne.PNG" />
+                  </div>
+                  <div class="card-body text-success">
+                    <p class="card-text">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                      totam rem aperiam, 
+                      eaque ipsa quae ab illo</p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex flex-md-row flex-sm-column flex-xs-column justify-content-between">
+                    <div>
+                      <div class="title">Robert Fox</div>
+                      <small>CEO, United Int. Ltd.</small>
+                    </div>
+                    <div class="d-flex">
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-2.png" />
+                    </div>                    
+                  </div>
+                </div>
+                <div class="card avis mb-3">
+                  <div class="card-header bg-transparent img-rond">
+                    <img class="img-responsive" src="images/personne.PNG" />
+                  </div>
+                  <div class="card-body text-success">
+                    <p class="card-text">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                      totam rem aperiam, 
+                      eaque ipsa quae ab illo</p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex flex-md-row flex-sm-column flex-xs-column justify-content-between">
+                    <div>
+                      <div class="title">Leslie Alexander</div>
+                      <small>CEO, United Int. Ltd.</small>
+                    </div>
+                    <div class="d-flex">
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-2.png" />
+                    </div>                    
+                  </div>
+                </div>
+                <div class="card avis mb-3">
+                  <div class="card-header bg-transparent img-rond">
+                    <img class="img-responsive" src="images/personne.PNG" />
+                  </div>
+                  <div class="card-body text-success">
+                    <p class="card-text">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                      totam rem aperiam, 
+                      eaque ipsa quae ab illo</p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex flex-md-row flex-sm-column flex-xs-column justify-content-between">
+                    <div>
+                      <div class="title">Cady Fisher</div>
+                      <small>CEO, United Int. Ltd.</small>
+                    </div>
+                    <div class="d-flex">
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-2.png" />
+                    </div>                    
+                  </div>
+                </div>
+                <div class="card avis mb-3">
+                  <div class="card-header bg-transparent img-rond">
+                    <img class="img-responsive" src="images/personne.PNG" />
+                  </div>
+                  <div class="card-body text-success">
+                    <p class="card-text">
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                      totam rem aperiam, 
+                      eaque ipsa quae ab illo</p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex flex-md-row flex-sm-column flex-xs-column justify-content-between">
+                    <div>
+                      <div class="title">Robert Fox</div>
+                      <small>CEO, United Int. Ltd.</small>
+                    </div>
+                    <div class="d-flex">
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-1.png" />
+                      <img class="img-responsive" src="images/star-2.png" />
+                    </div>                    
+                  </div>
+                </div>
+              </div>
+            </div>
             
           </div>
 
+
+          <!-- Form-->
+
+          <div class="container">
+              <div class="bloc-form">
+                <h2 class="text-center">Avez-Vous Des Questions ?</h2>
+                <p class="text-center">Saisissez votre adresse mail et lancez-vous</p>
+                <form class="form-inline justify-content-center">
+                  <div class="form-group mx-sm-3 mb-2">
+                    <input type="email" class="form-control" placeholder="Entrer Votre Adresse Email">
+                  </div>
+                  <button type="submit" class="btn btn-primary mb-2">ENVOYER</button>
+                </form>
+              </div>
+          </div>
+
+          <footer>
+            <div class="container">
+              <div class="row align-items-center pb-5 pt-5">
+                  <div class="col-md-6">
+                    <div class="d-flex flex-column">
+                      <a href="/" class="brand">
+                        <img src="images/logo-h.png" class="img-responsive" />
+                      </a>
+                      <span>Lorem ipsum dolor sit amet, consetetur sadipscing sed diam nonumy eirmod.</span>
+                      <div class="d-flex flex-row">
+                        <a class="social-media" href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="8.569" height="16" viewBox="0 0 8.569 16">
+                            <path id="facebook-f" d="M30.9,9l.444-2.9H28.564V4.225A1.448,1.448,0,0,1,30.2,2.661h1.263V.2A15.4,15.4,0,0,0,29.217,0a3.535,3.535,0,0,0-3.784,3.9V6.1H22.89V9h2.543v7h3.13V9Z" transform="translate(-22.89)" fill="#1c1c1c"/>
+                          </svg>
+                        </a>
+                        <a class="social-media" href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path id="linkedin-in" d="M3.582,16.01H.264V5.328H3.582ZM1.921,3.87A1.93,1.93,0,1,1,3.842,1.931,1.937,1.937,0,0,1,1.921,3.87ZM16,16.01h-3.31v-5.2c0-1.239-.025-2.829-1.725-2.829-1.725,0-1.989,1.346-1.989,2.739V16.01H5.659V5.328H8.841V6.785h.046A3.486,3.486,0,0,1,12.026,5.06C15.383,5.06,16,7.271,16,10.142V16.01Z" transform="translate(0 -0.01)"/>
+                          </svg>
+                        </a>
+                        <a class="social-media" href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19.7" height="16" viewBox="0 0 19.7 16">
+                            <path id="twitter" d="M17.675,52.07c.013.175.013.35.013.525A11.409,11.409,0,0,1,6.2,64.082,11.41,11.41,0,0,1,0,62.27a8.354,8.354,0,0,0,.975.05,8.086,8.086,0,0,0,5.013-1.725,4.045,4.045,0,0,1-3.775-2.8,5.091,5.091,0,0,0,.763.062,4.27,4.27,0,0,0,1.062-.137A4.038,4.038,0,0,1,.8,53.757v-.05a4.066,4.066,0,0,0,1.825.512,4.044,4.044,0,0,1-1.25-5.4A11.476,11.476,0,0,0,9.7,53.045a4.558,4.558,0,0,1-.1-.925,4.041,4.041,0,0,1,6.988-2.763,7.949,7.949,0,0,0,2.563-.975,4.027,4.027,0,0,1-1.775,2.225,8.094,8.094,0,0,0,2.325-.625A8.679,8.679,0,0,1,17.675,52.07Z" transform="translate(0 -48.082)" fill="#1c1c1c"/>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mt-5 mt-md-0">
+                    <p>
+                      Montréal, Rive-Sud, Rive-Nord (Laval) :<a href="tel:438-508-1748" class="tel">438-508-1748</a><br>
+                      Toutes autres régions :<a href="tel:418-456-6868" class="tel">418-456-6868</a>
+                    </p>
+                    <p>
+                      Textos 24 sur 7
+                      Appels du lundi au vendredi de 8h à 17h
+                    </p>
+                    
+                  </div>
+              </div>
+            </div>
+            
+            <div class="container">
+
+              <hr>
+              <!-- Copyright -->
+              <div class="footer-copyright text-center py-3">Copyright © 2021 Good JOB APP - All Rights Reserved.</div>
+            </div>
+          </footer>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script rel="preload" src="js/slick.min.js" as="script"></script>
+        <script rel="preload" src="js/scripts.js" as="script"></script>
     </body>
 
 </html>
